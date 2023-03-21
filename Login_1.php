@@ -91,7 +91,6 @@ if (isset($_POST['login_btn'])) {
             Dont have an account yet?<a href="register.html">  Register Here</a>
         </div>
     </div>
-
 </body>
 
 <footer>
