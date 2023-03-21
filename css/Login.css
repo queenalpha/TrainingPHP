@@ -1,0 +1,70 @@
+body {
+    font-family: sans-serif;
+    background: rgb(34, 34, 34);
+    background: linear-gradient(90deg, rgba(34, 34, 34, 1) 18%, rgba(88, 88, 88, 1) 100%);
+    overflow: hidden;
+}
+
+.Container-form {
+    position: absolute;
+    top: 40%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+h1 {
+    color: rgb(237, 233, 233);
+    margin-top: 12%;
+    margin-left: 15%;
+    font-size: 40px;
+}
+
+p {
+    margin-top: -20px;
+    margin-left: 15%;
+    color: white;
+    font-size: 20px;
+}
+
+.txt-field input {
+    margin-bottom: 10px;
+    width: 149%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    border: 5px;
+    background: rgb(41, 41, 41);
+    outline: none;
+}
+
+input[type="submit"] {
+    width: 150%;
+    height: 40px;
+    font-size: 16px;
+    border: 1px;
+    color: white;
+    background: rgb(41, 41, 41);
+    outline: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.error {
+    color: red;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    margin-top: 29%;
+    padding: 10px;
+    background: white;
+}

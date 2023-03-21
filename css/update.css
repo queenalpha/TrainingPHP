@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    background: rgb(34, 34, 34);
+    background: linear-gradient(90deg, rgba(34, 34, 34, 1) 18%, rgba(88, 88, 88, 1) 100%);
+    overflow: hidden;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    border-radius: 10px;
+}
+
+.txt-field input {
+    margin-bottom: 10px;
+    width: 149%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    border: 5px;
+    background: rgb(41, 41, 41);
+    outline: none;
+}
+
+button{
+    width: 150%;
+    height: 40px;
+    font-size: 16px;
+    border: 1px;
+    color: white;
+    background: rgb(41, 41, 41);
+    outline: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.info-acc{
+    margin-top: 8%;
+    margin-left: 39%;
+}
+
